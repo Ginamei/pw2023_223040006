@@ -15,3 +15,4 @@ $variabel2 =" Bundar ";
     <h1> <i> <?php echo " $variabel1 saya $variabel2 , $variabel2 $variabel1 saya."; ?> </i> </h1>
 </body>
 </html>
+
