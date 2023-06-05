@@ -83,6 +83,8 @@ INSERT INTO `user` (`id`, `username`, `password`, `status`) VALUES
 -- Indexes for dumped tables
 --
 
+
+
 --
 -- Indexes for table `tiket`
 --
