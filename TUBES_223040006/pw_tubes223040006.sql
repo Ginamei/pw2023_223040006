@@ -68,7 +68,7 @@ CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `username` varchar(64) NOT NULL,
   `password` varchar(256) NOT NULL,
-  `status` enum('user','admin') NOT NULL
+  `status` enum('user') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -77,13 +77,11 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `password`, `status`) VALUES
 (8, 'ginamei', '2004', 'user'),
-(7, 'admin', '123', 'admin'),
+(7, 'admin', '123', 'admin')
 (2, 'meirina', '080504', 'user');
 --
 -- Indexes for dumped tables
 --
-
-
 
 --
 -- Indexes for table `tiket`
