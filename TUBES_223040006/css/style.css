@@ -4,7 +4,7 @@
 }
 
 .d-flex a {
-    background-color: #8a1fe5;
+    background-color: #c7e51f;
     color: white;
     border-radius: 8px;
 }
@@ -40,7 +40,7 @@
 
 /* Collections */
 .collection span {
-    color: #8a1fe5;
+    color: #c7e51f;
     font-size: 19px;
     font-weight: 800;
     padding-left: 5px;
@@ -54,7 +54,7 @@
     position: absolute;
     height: 45px;
     width: 110px;
-    background-color: #8a1fe5;
+    background-color: #c7e51f;
     color: #131314;
     border-radius: 5px;
     outline: none;
@@ -72,7 +72,7 @@
 
 .collection input:hover {
     background-color: #131314;
-    color: #8a1fe5;
+    color: #c7e51f;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -103,7 +103,7 @@
 
 /* Card */
 .row .card .btn {
-    background-color: #8a1fe5;
+    background-color: #c7e51f;
     color: #131314;
     border-radius: 8px;
     border: 2px solid transparent;
@@ -111,14 +111,14 @@
 
 .row .card .btn:hover {
     background-color: #131314;
-    color: #8a1fe5;
+    color: #c7e51f;
     transition: 0.6s;
     border-radius: 8px;
 }
 
 /* Table */
 .table tr td a {
-    background-color: #8a1fe5;
+    background-color: #c7e51f;
     color: white;
     border-radius: 8px;
     border: 2px solid transparent;
@@ -126,13 +126,13 @@
 
 .table tr td a:hover {
     background-color: #131314;
-    color: #8a1fe5;
+    color: #c7e51f;
     transition: 0.6s;
     border-radius: 8px;
 }
 
 .d-flex .btn {
-    background-color: #8a1fe5;
+    background-color: #c7e51f;
     color: white;
     border-radius: 8px;
     border: 2px solid transparent;
@@ -140,7 +140,7 @@
 
 .d-flex .btn:hover {
     background-color: #131314;
-    color: #8a1fe5;
+    color: #c7e51f;
     transition: 0.6s;
     border-radius: 8px;
 }

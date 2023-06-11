@@ -99,7 +99,7 @@
         $username = htmlspecialchars($data['username']) ;
         $password = htmlspecialchars($data['password']) ;
 
-        if($user = query("SELECT * FROM user WHERE username = '$username'")[0]) {
+        if($user = query("SELECT * FROM user WHERE username = '$username'")) {
             // cek password
             if(password_verify($password, $user['password'])) {
                 // set session

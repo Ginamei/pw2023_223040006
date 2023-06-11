@@ -7,7 +7,7 @@
       exit;
   }
 
-require 'functions.php' ;
+require 'php/functions.php' ;
 
     $id = $_GET["id"] ;
 
